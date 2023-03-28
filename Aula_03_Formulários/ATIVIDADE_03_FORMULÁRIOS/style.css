@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(Imagens_NETFLIX/fundo_netflix.jpg);
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img {
+
+    width: 150px;
+    margin: 30px;
+}
+
+#Formulario{
+    background-color: rgba(0,0,0,0.7);
+    padding: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#Formulario h1{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#Formulario label{
+    color: #666;
+    display: block;
+}
+
+#Formulario div{
+    margin-bottom: 20px;
+}
+
+#Formulario div input{
+    background-color: #999;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#Formulario div input[type=radio]{
+    width: auto;
+}
+
+#Formulario div input[type=radio] + label{
+    display: inline;
+    margin-right: 20px;
+
+}
